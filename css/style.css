@@ -4,10 +4,32 @@
 .bg_header{
     background-color: black;
 }
+/*----------------
+     BUTTONS
+------------------*/
+.btn_{
+    border-radius: 20px;
+    margin-right: 15px; 
+}
 
+.btn_grey{
+    color: white;
+    background-color: #363636;   
+}
+
+.btn_orange{
+    color: white;
+    background-color: #cd3d0f;
+}
 /*----------------
     HEADER
 ------------------*/
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
 .sony_logo{
     width: 100%;
     line-height: 40px;
@@ -27,9 +49,30 @@ form img{
     margin-top: 11px
 }
 
-.btn_grey{
+/*----------------
+    MAIN
+------------------*/
+/*hero*/
+.hero{
+    width: 100%;
+    background-image: url('../img/jumbo-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
-    background-color: #363636;
-    border-radius: 20px;
-    margin-right: 15px;
+    font-size: 20px;
 }
+
+.hero img{
+    width: 60%;
+}
+
+.hero .row{
+    padding-top: 200px;
+}
+
+.hero_bottom img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
