@@ -1,0 +1,35 @@
+/*----------------
+     COLORS
+------------------*/
+.bg_header{
+    background-color: black;
+}
+
+/*----------------
+    HEADER
+------------------*/
+.sony_logo{
+    width: 100%;
+    line-height: 40px;
+}
+
+.sony_logo img{
+    height: 18px;
+}
+
+.chevron_down{
+    height: 10px;
+    margin: 0 5px;
+}
+
+form img{
+    height: 23px;
+    margin-top: 11px
+}
+
+.btn_grey{
+    color: white;
+    background-color: #363636;
+    border-radius: 20px;
+    margin-right: 15px;
+}
