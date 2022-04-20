@@ -146,6 +146,11 @@ form img{
     width: 50%;
 }
 
+/* sconti */
+.discount img {
+    width: 100%;
+}
+
 /*----------------
     FOOTER
 ------------------*/
