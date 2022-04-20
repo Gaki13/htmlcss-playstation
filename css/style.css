@@ -27,6 +27,11 @@
     color: white;
     background-color: #2d64e6;
 }
+
+.btn_lightgrey{
+    color: #2d64e6;
+    background-color: #d9dadc;
+}
 /*----------------
     HEADER
 ------------------*/
@@ -130,6 +135,17 @@ form img{
 .explore_ps4 img{
     width: 100%;
 }
+
+/* playstation plus */
+.playstation_plus{
+    width: 100%;
+    background-color: #bebcbb;
+}
+
+.playstation_plus .col-12 img{
+    width: 50%;
+}
+
 /*----------------
     FOOTER
 ------------------*/
