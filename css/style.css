@@ -32,6 +32,11 @@
     color: #2d64e6;
     background-color: #d9dadc;
 }
+
+.btn_now{
+    color: black;
+    background-color: #f5f5f5;
+}
 /*----------------
     HEADER
 ------------------*/
@@ -149,6 +154,17 @@ form img{
 /* sconti */
 .discount img {
     width: 100%;
+}
+
+/* playstation now */
+.playstation_now{
+    width: 100%;
+    background-color: #161c3b;
+    color: white;
+}
+
+.playstation_now .col-12 img{
+    width: 50%;
 }
 
 /*----------------
