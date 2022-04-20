@@ -114,6 +114,17 @@ form img{
 .new_release img{
     width: 60%;
 }
+
+.new_release_bottom{
+    width: 100%;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.new_release_bottom img{
+    width: 100%;
+    border-radius: 20px;
+}
 /*----------------
     FOOTER
 ------------------*/
