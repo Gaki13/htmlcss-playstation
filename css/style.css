@@ -167,6 +167,7 @@ form img{
     width: 50%;
 }
 
+
 /*----------------
     FOOTER
 ------------------*/
@@ -187,4 +188,12 @@ form img{
 .hardware .figure-img:hover{
     opacity: 1;
     cursor:pointer
+}
+
+/* effetti sezione social media */
+@media screen and (min-width: 576px) {
+    .social_media .row{
+        width: 660px;
+        margin: auto;
+    }
 }
