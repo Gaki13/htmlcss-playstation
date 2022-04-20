@@ -83,7 +83,15 @@ form img{
 
 .hero_bottom img{
     width: 100%;
+    border-radius: 18px;
+}
+
+ 
+
+.img_active{
+    border: 3px solid #2d64e6;
     border-radius: 20px;
+    padding: 2px;
 }
 
 /*hardware*/
@@ -91,4 +99,17 @@ form img{
     width: 100%;
 }
 
+/*----------------
+    FOOTER
+------------------*/
 
+/*----------------
+    EFFECTS
+------------------*/ 
+.hero_bottom [class*="col"]{
+    transition: all 1s;
+} 
+
+.hero_bottom [class*="col"]:hover{
+    transform: translateY(-15px);
+}
