@@ -125,6 +125,11 @@ form img{
     width: 100%;
     border-radius: 20px;
 }
+
+/* esplora il mondo ps4 */
+.explore_ps4 img{
+    width: 100%;
+}
 /*----------------
     FOOTER
 ------------------*/
