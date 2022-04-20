@@ -86,8 +86,6 @@ form img{
     border-radius: 18px;
 }
 
- 
-
 .img_active{
     border: 3px solid #2d64e6;
     border-radius: 20px;
@@ -99,6 +97,11 @@ form img{
     width: 100%;
 }
 
+.hardware .figure-img{
+    opacity: 0.7;
+    transition: opacity cursor 0s;
+}
+
 /*----------------
     FOOTER
 ------------------*/
@@ -106,10 +109,17 @@ form img{
 /*----------------
     EFFECTS
 ------------------*/ 
+/* effetti sezione hero */
 .hero_bottom [class*="col"]{
     transition: all 1s;
 } 
 
 .hero_bottom [class*="col"]:hover{
     transform: translateY(-15px);
+}
+
+/* effetti sezione hardware */
+.hardware .figure-img:hover{
+    opacity: 1;
+    cursor:pointer
 }
