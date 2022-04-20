@@ -101,7 +101,19 @@ form img{
     opacity: 0.7;
     transition: opacity cursor 0s;
 }
+/* new release */
+.new_release{
+    width: 100%;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+}
 
+.new_release img{
+    width: 60%;
+}
 /*----------------
     FOOTER
 ------------------*/
