@@ -209,3 +209,33 @@ footer{
         margin: auto;
     }
 }
+
+/* effetti dei bottoni */
+.btn_.btn_grey:hover{
+    outline: inset;
+    outline-color: #363636;
+    outline-offset: 2px;
+}
+
+.btn_.btn_orange:hover{
+    outline: inset;
+    outline-color: #cd3d0f;
+    outline-offset: 2px;
+}
+
+.btn_.btn_blue:hover{
+    outline: inset;
+    outline-color: #2d64e6;
+    outline-offset: 2px;
+}
+
+.btn_.btn_lightgrey:hover{
+    outline: solid;
+    outline-color: #d9dadc;
+}
+
+.btn_.btn_now:hover{
+    outline: inset;
+    outline-color: #f5f5f5;
+    outline-offset: 2px;
+}
