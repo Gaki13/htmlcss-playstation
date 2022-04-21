@@ -180,6 +180,10 @@ footer{
 .footer_top img{
     height: 80px;
 }
+
+.footer_bottom img{
+    width: 130px;
+}
 /*----------------
     EFFECTS
 ------------------*/ 
