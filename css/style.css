@@ -76,6 +76,7 @@ form img{
 .hero{
     width: 100%;
     background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
@@ -87,8 +88,8 @@ form img{
 }
 
 .hero .row{
-    padding-top: 300px;
-    padding-bottom: 100px;
+    padding-top: 400px;
+    padding-bottom: 50px;
 } 
 
 .hero_bottom img{
@@ -171,13 +172,20 @@ form img{
 /*----------------
     FOOTER
 ------------------*/
+footer{
+    width: 100%;
+    background-color: #00439c;
+}
 
+.footer_top img{
+    height: 80px;
+}
 /*----------------
     EFFECTS
 ------------------*/ 
 /* effetti sezione hero */
 .hero_bottom [class*="col"]{
-    transition: all 1s;
+    transition: all 0.5s;
 } 
 
 .hero_bottom [class*="col"]:hover{
@@ -193,7 +201,7 @@ form img{
 /* effetti sezione social media */
 @media screen and (min-width: 576px) {
     .social_media .row{
-        width: 660px;
+        width: 540px;
         margin: auto;
     }
 }
